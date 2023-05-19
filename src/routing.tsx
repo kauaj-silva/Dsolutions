@@ -7,11 +7,11 @@ import Skills from './pages/skills';
 function Routing() {
   return (
     <Routes>
-      <Route path="/" element={<App />}>
+      <Route path="/Dsolutions" element={<App />}>
         <Route index element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path='/projects' element={<Skills />}></Route>
+        <Route path="/Dsolutions/about" element={<About />} />
+        <Route path="/Dsolutions/skills" element={<Skills />} />
+        <Route path='/Dsolutions/projects' element={<Skills />}></Route>
       </Route>
     </Routes>
   );
