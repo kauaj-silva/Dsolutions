@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #131313;
+    color:var(--iconsFontColor);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+footer .footer__social-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__social-icons {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.footer__social-icon {
+    width: 22px;
+    height: 22px;
+    margin: 0 10px;
+}

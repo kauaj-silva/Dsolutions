@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 3rem;
+}
+
+header .header__logo h1{
+    font-size: var(--titleFontSize);
+    font-weight: 500;
+    letter-spacing: 0.12rem;
+    line-height: 1px;
+    color: var(--titleFontColor);
+    margin-left: 1rem;
+}
+
+header .header__logo .page-detail {
+    font-size: 3rem;
+    color :var(--iconDetailColor);
+}
+
+
+header .menu-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+

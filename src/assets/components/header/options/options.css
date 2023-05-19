@@ -1,0 +1,13 @@
+
+header .menu-container__icon {
+    font-size: 1.5rem;
+    color: var(--titleFontColor);
+    cursor: pointer;
+    position: absolute;
+    transition: all 0.3s ease;
+}
+
+header .menu-container__icon:hover {
+    transform: rotateZ(180deg);
+}
+
