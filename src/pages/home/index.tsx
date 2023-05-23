@@ -9,7 +9,7 @@ export default function Home() {
             <div className='home__container'>
                 <div className='home__container-left'>
                     <div className='home__container-left-title'>
-                        <h1>Hello World <span className='page-detail'>!</span></h1>
+                        <h2>Hello World <span className='page-detail'>!</span></h2>
                     </div>
                     <div className='home__container-left-content'>
                         <p>Meu nome é Kauã, e sou desenvolvedor Web.</p>
